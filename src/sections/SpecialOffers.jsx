@@ -25,8 +25,14 @@ const SpecialOffers = () => {
           Navigate a realm of possibilities designed to fulfil your unique desires, surpassing the loftiest expectation. Your journey with us is nothing short of exceptional.
         </p>
 
-        <div className="mt-11">
+        <div className="mt-11 flex flex-wrap gap-4">
           <Button label="View details" />
+          <Button 
+            label="Learn more"
+            backgroundColor="bg-white"
+            borderColor="border-slate-gray"
+            textColor="text-slate-gray"
+          />
         </div>
       </div>
     </section>
